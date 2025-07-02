@@ -43,9 +43,7 @@
 
 
    ```bash
-   sudo marzban restart
-   
-
+   marzban restart
 ## مرزنشین 
 
 1. **فایل رو در سرور خود نصب کنید (نسخه فارسی)**:
